@@ -1,0 +1,18 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(test, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Test / test[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to /home/hesisenberg/Documents/PrinciplesOfProgrammingLanguages/week9/Assignment9/target/scala-2.13/classes ...[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/hesisenberg/Documents/PrinciplesOfProgrammingLanguages/week9/Assignment9/src/main/scala/run.scala:69:25: comparing values of types Nothing and String using `==` will always yield false[0m
+[0m[[0m[33mwarn[0m] [0m[0m    assert(find(t6, 18) == "18")[0m
+[0m[[0m[33mwarn[0m] [0m[0m                        ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/hesisenberg/Documents/PrinciplesOfProgrammingLanguages/week9/Assignment9/src/main/scala/run.scala:70:24: comparing values of types Nothing and String using `==` will always yield false[0m
+[0m[[0m[33mwarn[0m] [0m[0m    assert(find(t6, 5) == "5")[0m
+[0m[[0m[33mwarn[0m] [0m[0m                       ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/hesisenberg/Documents/PrinciplesOfProgrammingLanguages/week9/Assignment9/src/main/scala/run.scala:7:5: match may not be exhaustive.[0m
+[0m[[0m[33mwarn[0m] [0m[0mIt would fail on the following input: TreeNode(_, _, _, _)[0m
+[0m[[0m[33mwarn[0m] [0m[0m    tree match{[0m
+[0m[[0m[33mwarn[0m] [0m[0m    ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mthree warnings found[0m
+[0m[[0m[0minfo[0m] [0m[0mdone compiling[0m
+[0m[[0m[32msuccess[0m] [0m[0mTotal time: 1 s, completed Apr 23, 2022, 11:18:28 AM[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(idea-shell, None, None)[0m

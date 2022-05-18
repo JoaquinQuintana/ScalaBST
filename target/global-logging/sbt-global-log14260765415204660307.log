@@ -1,0 +1,32 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(test, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Test / test[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to /home/hesisenberg/Documents/PrinciplesOfProgrammingLanguages/week9/Assignment9/target/scala-2.13/classes ...[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/hesisenberg/Documents/PrinciplesOfProgrammingLanguages/week9/Assignment9/src/main/scala/run.scala:78:25: comparing values of types Nothing and String using `==` will always yield false[0m
+[0m[[0m[33mwarn[0m] [0m[0m    assert(find(t7, 18) == "18")[0m
+[0m[[0m[33mwarn[0m] [0m[0m                        ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/hesisenberg/Documents/PrinciplesOfProgrammingLanguages/week9/Assignment9/src/main/scala/run.scala:79:24: comparing values of types Nothing and String using `==` will always yield false[0m
+[0m[[0m[33mwarn[0m] [0m[0m    assert(find(t7, 5) == "5")[0m
+[0m[[0m[33mwarn[0m] [0m[0m                       ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/hesisenberg/Documents/PrinciplesOfProgrammingLanguages/week9/Assignment9/src/main/scala/run.scala:89:25: comparing values of types Nothing and String using `==` will always yield false[0m
+[0m[[0m[33mwarn[0m] [0m[0m    assert(find(t8, 18) == "18")[0m
+[0m[[0m[33mwarn[0m] [0m[0m                        ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/hesisenberg/Documents/PrinciplesOfProgrammingLanguages/week9/Assignment9/src/main/scala/run.scala:90:24: comparing values of types Nothing and String using `==` will always yield false[0m
+[0m[[0m[33mwarn[0m] [0m[0m    assert(find(t8, 5) == "5")[0m
+[0m[[0m[33mwarn[0m] [0m[0m                       ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/hesisenberg/Documents/PrinciplesOfProgrammingLanguages/week9/Assignment9/src/main/scala/run.scala:92:25: comparing values of types Nothing and String using `==` will always yield false[0m
+[0m[[0m[33mwarn[0m] [0m[0m    assert(find(t8, 25) == "25")[0m
+[0m[[0m[33mwarn[0m] [0m[0m                        ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/hesisenberg/Documents/PrinciplesOfProgrammingLanguages/week9/Assignment9/src/main/scala/run.scala:26:5: match may not be exhaustive.[0m
+[0m[[0m[33mwarn[0m] [0m[0mIt would fail on the following input: TreeNode(_, _, _, _)[0m
+[0m[[0m[33mwarn[0m] [0m[0m    tree match{[0m
+[0m[[0m[33mwarn[0m] [0m[0m    ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/hesisenberg/Documents/PrinciplesOfProgrammingLanguages/week9/Assignment9/src/main/scala/run.scala:42:50: match may not be exhaustive.[0m
+[0m[[0m[33mwarn[0m] [0m[0mIt would fail on the following inputs: NilNode, TreeNode(_, _, NilNode, NilNode), TreeNode(_, _, NilNode, TreeNode(_, _, _, _)), TreeNode(_, _, TreeNode(_, _, _, _), NilNode), TreeNode(_, _, TreeNode(_, _, _, _), TreeNode(_, _, _, _))[0m
+[0m[[0m[33mwarn[0m] [0m[0m  def deleteKey[T](tree: Node, key: Int):Node  = tree match {[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                                 ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m7 warnings found[0m
+[0m[[0m[0minfo[0m] [0m[0mdone compiling[0m
+[0m[[0m[0mdebug[0m] [0m[0mForcing garbage collection...[0m
+[0m[[0m[32msuccess[0m] [0m[0mTotal time: 1 s, completed Apr 23, 2022, 12:52:11 PM[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(idea-shell, None, None)[0m
